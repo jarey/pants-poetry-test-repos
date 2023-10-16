@@ -1,18 +1,16 @@
 [tool.poetry]
-name = "multirepo-2"
+name = "project-service"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
-project-service = {path = "project-service"}
-project-models = {path = "project-models"}
-project-app = {path = "project-app"}
-project-app-async = {path = "project-app-asnyc"}
+python = "^3.10"
+pydantic = "^1.8.2"
 
 [tool.poetry.dev-dependencies]
-pytest= "7.0.1"
+magicmock="0.03"
+numpy="1.26.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

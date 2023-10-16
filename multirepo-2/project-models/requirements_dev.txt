@@ -1,0 +1,2 @@
+magicmock==0.03
+numpy==1.26.0

@@ -1,0 +1,2 @@
+magicmock==0.03
+scipy==1.11.3

@@ -9,6 +9,6 @@ pex_binary(
     dependencies=[
         ':project-app',
 	':lib',
-	'project-models:lib',
+	'project-models:model-lib',
     ],
 )
